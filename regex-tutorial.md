@@ -42,18 +42,31 @@ n+	Matches any string that contains at least one n
 
 
 ### Grouping Constructs
+In regex constructs can be grouped using paranthesis.
+The following regex (123):(abc)
+would be considered two groups.
+
 
 ### Bracket Expressions
+Sqaure brackets in regex represents a range of characters that the user would like to match. Bracket expressions will use the range of characters in any order to search for regex that match the parameters.
 
 ### Character Classes
+Character classes tells the regex whether there is a specific whitespace, digit, or a alphabet.
+
 
 ### The OR Operator
 The OR operator can be written as the following "|" and it literally means or.
 The OR operator can be used within javascript when assigning if else statements as well as regex expressions.
 
 ### Flags
+Flags are one of the optional parameters of a regex. The define the limits for the regex. Some examples can be found below.
+g-Global search (searches globally for all possible matches in a string)
+i-Case sensitive search (will decide if the regex should ignore case when searching for a string)
+m-multi line search (searches multiple lines for the matching string)
 
 ### Character Escapes
+
+
 
 ## Author
 Ricky Thakar - Aspiring full stack web developer currently a student at UCF Coding bootcamp
