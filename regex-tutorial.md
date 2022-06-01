@@ -65,6 +65,18 @@ i-Case sensitive search (will decide if the regex should ignore case when search
 m-multi line search (searches multiple lines for the matching string)
 
 ### Character Escapes
+It can be very useful in knowing the different character classes when using regex.
+Some examples of different character classes can be alpha, alphanumeric, special characters, etc.
+Some common character classes can include
+Here are some of the other common character classes:
+
+.— Will match any character
+
+\d— Will match any numeric digit. This class is equivalent to the bracket expression [0-9].
+
+\w— Will match an alphanumeric character as well as the underscore (_). This class is equivalent to the bracket expression [A-Za-z0-9_].
+
+\s— Will match a single whitespace character, linebreak, tab/indent.
 
 
 
