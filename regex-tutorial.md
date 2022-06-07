@@ -3,6 +3,8 @@
 This is a simple tutorial on regular expressions for Javascript. Below you can find a table of contents that can navigate you to the different sections of the tutorial.
 Hope you enjoy and benefit from this tutorial.
 
+Gist Link
+https://gist.github.com/Rickythakar/0c5d3c92723e928f778aabbd78756ce3
 ## Summary
 
 A **regex**, which is short for **regular expression**, is a sequence of characters that defines a specific search pattern. When included in code or search algorithms, regular expressions can be used to find certain patterns of characters within a string, or to find and replace a character or sequence of characters within a string. They are also frequently used to validate input. 
